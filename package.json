@@ -1,0 +1,13 @@
+{
+  "name": "typescript-bug",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build.js && node build/index.js",
+    "start:typecheck": "tsc && node buildTypechecked/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}
